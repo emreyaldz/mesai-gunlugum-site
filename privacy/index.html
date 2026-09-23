@@ -31,7 +31,7 @@
       <header class="page-heading">
         <p class="eyebrow">Yasal bilgi</p>
         <h1>Gizlilik Politikası ve KVKK Aydınlatması</h1>
-        <p class="meta">Son güncelleme: 14 Ağustos 2026</p>
+        <p class="meta">Son güncelleme: 23 Eylül 2026</p>
       </header>
 
       <article class="legal-content">
@@ -47,8 +47,9 @@
             Mesai Günlüğüm reklam, davranış analizi veya kullanıcı takibi yapmaz. Maaş,
             puantaj, izin, vergi ve tazminat kayıtları cihazdaki yerel veritabanında tutulur.
             Kullanıcı PDF paylaşmadıkça bu kayıtlar seçtiği başka bir uygulama veya alıcıya
-            gönderilmez. Satın alma sırasında yalnız mağaza tokenı ve ürün kimliği doğrulama
-            için geçici olarak işlenir.
+            gönderilmez. İsteğe bağlı Puantaj hatırlatması cihazda planlanan yerel bildirimdir;
+            sunucuya bilgi gönderilmez. Satın alma sırasında yalnız mağaza tokenı ve ürün
+            kimliği doğrulama için geçici olarak işlenir.
           </p>
         </section>
 
@@ -58,10 +59,11 @@
             <li>İsteğe bağlı ad veya ad-soyad</li>
             <li>İşe giriş veya ayrılış tarihi ve ayrılma nedeni</li>
             <li>Maaş, ek ödeme, vergi matrahı ve hesaplama sonuçları</li>
-            <li>Puantaj, mesai, eksik saat ve izin kayıtları</li>
+            <li>Puantaj, mesai, eksik saat, yıllık izin ve saatlik izin kayıtları</li>
             <li>Özel sağlık sigortası prim tutarı</li>
             <li>İsteğe bağlı engellilik derecesi</li>
             <li>Kullanıcının yazdığı açıklamalar ve notlar</li>
+            <li>Hesaplama ayarları, tutarları gizleme ve Puantaj hatırlatması tercihi gibi uygulama tercihleri</li>
             <li>Deneme başlangıcı, tam sürüm durumu ve mağaza ürün kimliği</li>
             <li>Satın alma veya geri yükleme sırasında geçici mağaza satın alma tokenı</li>
           </ul>
@@ -72,8 +74,8 @@
           <p>
             Bilgiler kullanıcı tarafından uygulamaya yazılarak veya seçilerek toplanır.
             Maaş, puantaj, izin, vergi ve tazminat hesaplarını yapmak; geçmiş kayıtları
-            göstermek; deneme ve tam sürüm erişimini yönetmek ve kullanıcının talebiyle PDF
-            hazırlamak için işlenir.
+            göstermek; kullanıcının istediği hatırlatmaları planlamak; deneme ve tam sürüm
+            erişimini yönetmek ve kullanıcının talebiyle PDF hazırlamak için işlenir.
           </p>
           <p>
             Genel uygulama kayıtları, uygulanabildiği ölçüde KVKK madde 5/2-c kapsamındaki
@@ -93,8 +95,23 @@
           </p>
         </section>
 
+        <section aria-labelledby="bildirimler">
+          <h2 id="bildirimler">5. Bildirimler</h2>
+          <p>
+            Günlük Puantaj hatırlatması isteğe bağlıdır ve yalnız kullanıcı telefonunda
+            bildirim izni verdiğinde çalışır. Hatırlatmalar cihazın kendi bildirim sistemiyle
+            yerel olarak planlanır; Puantaj kaydı veya tam günlük izni bulunan günlerde
+            gönderilmez.
+          </p>
+          <p>
+            Bildirim için sunucu, hesap veya bildirim anahtarı (push token) kullanılmaz ve
+            bildirim metni kişisel bilgi içermez. Kullanıcı hatırlatmayı uygulamadaki
+            Profil &gt; Bildirimler bölümünden veya telefon ayarlarından kapatabilir.
+          </p>
+        </section>
+
         <section aria-labelledby="aktarim">
-          <h2 id="aktarim">5. Aktarım ve üçüncü taraflar</h2>
+          <h2 id="aktarim">6. Aktarım ve üçüncü taraflar</h2>
           <p>Yayıncı tarafından yönetilen bir kullanıcı hesabı, uzak veritabanı veya bulut eşitleme hizmeti yoktur.</p>
           <ul>
             <li>Satın alma Apple App Store veya Google Play tarafından yürütülür. Uygulama kart, banka hesabı veya faturalandırma bilgilerini görmez.</li>
@@ -106,23 +123,24 @@
         </section>
 
         <section aria-labelledby="saklama">
-          <h2 id="saklama">6. Saklama, silme ve güvenlik</h2>
+          <h2 id="saklama">7. Saklama, silme ve güvenlik</h2>
           <p>
             Yerel kayıtlar kullanıcı değiştirene, uygulama içinden silene veya uygulamayı
-            kaldırana kadar cihazda kalır. Kişisel kayıtları silme işlemi deneme başlangıcını
-            ve tam sürüm hakkını silmez. Mağaza satın alma geçmişi Apple veya Google’ın
+            kaldırana kadar cihazda kalır. Kişisel kayıtları silme işlemi planlanmış
+            hatırlatmaları da kaldırır; deneme başlangıcını ve tam sürüm hakkını silmez. Mağaza satın alma geçmişi Apple veya Google’ın
             saklama kurallarına tabi olabilir. Satın alma tokenı cihaz veritabanında kalıcı
             olarak tutulmaz. Yayıncı cihazdaki kayıtları uzaktan göremez veya silemez.
           </p>
           <p>
             Veriler işletim sisteminin uygulama korumalı alanındadır. Uygulamaya özel parola
-            veya veritabanı şifrelemesi sunulmaz. Cihaz ekran kilidi ve güncel işletim sistemi
-            kullanılması önerilir.
+            veya veritabanı şifrelemesi sunulmaz. Uygulama başlığındaki göz simgesi maaş
+            tutarlarını yalnız ekranda gizler; verileri şifrelemez. Cihaz ekran kilidi ve güncel
+            işletim sistemi kullanılması önerilir.
           </p>
         </section>
 
         <section aria-labelledby="haklar">
-          <h2 id="haklar">7. Haklar ve başvuru</h2>
+          <h2 id="haklar">8. Haklar ve başvuru</h2>
           <p>
             Kullanıcı KVKK madde 11 kapsamındaki bilgi alma, düzeltme, silme, yok etme,
             aktarılan kişileri öğrenme ve kanuna aykırı işleme nedeniyle zararın giderilmesini
@@ -140,7 +158,7 @@
         </section>
 
         <section aria-labelledby="site-gizliligi">
-          <h2 id="site-gizliligi">8. Bu internet sitesi</h2>
+          <h2 id="site-gizliligi">9. Bu internet sitesi</h2>
           <p>
             Bu sitede reklam, analiz veya kullanıcı takip kodu bulunmaz ve site tarafından
             çerez yerleştirilmez. Barındırma sağlayıcısı, güvenlik ve hizmet sunumu amacıyla
@@ -149,7 +167,7 @@
         </section>
 
         <section aria-labelledby="degisiklikler">
-          <h2 id="degisiklikler">9. Değişiklikler</h2>
+          <h2 id="degisiklikler">10. Değişiklikler</h2>
           <p>
             Veri akışı veya özellikler değişirse bu politika güncellenir. Önemli değişiklikler
             kullanılmadan önce uygulama içinde uygun şekilde açıklanır.
